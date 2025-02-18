@@ -1,17 +1,16 @@
+What we will learn is-how to analyse sorting algorithm indepth.
+
 # Sorting Algorithms
+Sorting Algorithms - Visual Representation
+This project showcases visual demonstrations of different sorting algorithms using Python and Tkinter.
 
-Visualising various sorting algorithms using <b>Python</b> and <b>Tkinter</b>.
-<br><br>
-Algorithms include:
-<ul>
-<li>Selection Sort</li>
-<li>Bubble Sort</li>
-<li>Insertion Sort</li>
-<li>Merge Sort</li>
-<li>Quick Sort</li>
-</ul>
-
-This repository is linked to an article on Medium describing project.
+Algorithms Covered:
+Selection Sort
+Bubble Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+You can find a related article on Medium that provides a comprehensive explanation of this project. Read it here.
 Check it out <a href="">here</a>.
 
 ## Selection Sort
@@ -31,7 +30,7 @@ Therefore, if comparing both, selection sort generally performs suboptimally ver
 
 <img src="images/selection.gif" alt="selection sort" width="500"/>
 
-## Bubble Sort
+## Explanation  of  Bubble Sort
 
 Bubble sort compares adjacent elements and swaps them if they are in the wrong order. The pass of the list repeats to obtain the final ordered values.<br><br>
 Items are seen to <i>bubble</i> to the top of the array, thus giving the algorithm its name. Alternatively, they may <i>sink</i>, which is the other name for this algorithm, <i>sinking</i> sort.
@@ -46,7 +45,7 @@ Items are seen to <i>bubble</i> to the top of the array, thus giving the algorit
 
 <img src="images/bubble.gif" alt="bubble sort" width="500"/>
 
-## Insertion Sort
+## Explanation  of Insertion Sort
 
 <b>Insertion</b> sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. Wikipedia
 
@@ -60,7 +59,7 @@ Items are seen to <i>bubble</i> to the top of the array, thus giving the algorit
 
 <img src="images/insertion.gif" alt="insertion sort" width="500"/> 
 
-## Merge Sort
+## Explanation  of Merge Sort
 
 <b>Merge</b> sort is an efficient, general-purpose, comparison-based sorting algorithm. Most implementations produce a stable sort, meaning that the order of equal elements is the same in the input and output.
 Merge sort is a divide and conquer algorithm.
@@ -74,10 +73,9 @@ Merge sort is a divide and conquer algorithm.
 
 <img src="images/merge-sort.gif" alt="merge sort" width="500"/>
 
-## Quick Sort
+## Explanation  of Quick Sort
 
-<b>Quicksort</b> was developed by British computer scientist Tony Hoare in 1959.
-It is still a commonly used algorithm for sorting. It has potential to be multiple times faster than its main competitors, merge sort and heapsort.
+<b>Quicksort</b> is a highly efficient sorting algorithm using the divide and conquer approach. It selects a pivot, partitions the array into elements less than and greater than the pivot, and recursively sorts the subarrays.
 
     Worst complexity: n^2
     Average complexity: n*log(n)
@@ -88,3 +86,4 @@ It is still a commonly used algorithm for sorting. It has potential to be multip
     
 <img src="images/quick-sort.gif" alt="quick sort" width="500"/>
 
+QuickSort is usually faster and more space-efficient, but MergeSort guarantees stability and better worst-case performance.
