@@ -10,8 +10,7 @@ Bubble Sort
 Insertion Sort
 Merge Sort
 Quick Sort
-You can find a related article on Medium that provides a comprehensive explanation of this project. Read it here.
-Check it out <a href="">here</a>.
+
 
 ## Selection Sort
 
